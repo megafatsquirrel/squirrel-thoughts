@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: squirrel-thoughts
+subtitle: squirrel-thoughts
+description: A blog
 author: Matt English
-language:
-timezone:
+language: en
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -78,4 +78,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/megafatsquirrel/squirrel-thoughts
+  repo: git@github.com:megafatsquirrel/squirrel-thoughts.git
+  branch: master

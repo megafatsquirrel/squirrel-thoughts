@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "hexo": {
+    "version": "3.5.0"
+  },
   "scripts": {
+    "build": "hexo generate --deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
